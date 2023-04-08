@@ -8,6 +8,7 @@ export const GlobalStyles = createGlobalStyle`
   --text: #000;
   --footer: #000;
   --text-description: #9C9696;
+  --text-hover:  #363636;
   }
 
   * {
@@ -18,6 +19,15 @@ export const GlobalStyles = createGlobalStyle`
 
   html {
     font-family: "Roboto", sans-serif;
+    background-color: var(--main-background);
+  }
+
+  a, input {
+    text-decoration: none;
+  }
+
+  input {
+    border: none;
   }
 `;
 
